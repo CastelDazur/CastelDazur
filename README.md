@@ -2,6 +2,10 @@
 
 **Full-Stack Developer** | **SaaS Architect** | **AI Integration Specialist**
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;SaaS+Platform+Architect;AI+Integration+Specialist;150%2B+API+Endpoints+Built;Mobile+%26+Web+Expert" alt="Typing SVG" />
+</p>
+
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🚀 About Me
@@ -76,6 +80,10 @@ I'm a passionate full-stack developer based in **Nice, France** 🇫🇷, specia
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CastelDazur&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CastelDazur&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 ---
