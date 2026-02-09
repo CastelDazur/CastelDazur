@@ -1,18 +1,23 @@
-# Hi, I'm Dmytro 👋
+<div align="center">
 
-**Full-Stack Developer** | **SaaS Architect** | **AI Integration Specialist**
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Dmytro%20Romanov&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=fff)
 
-<p align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="400" alt="Coding" />
-</p>
+### Full-Stack Developer & SaaS Architect 🚀
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/casteldazur)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:casteldazur@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/casteldazur)
+[![Website](https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dary.one)
+
+</div>
 
 ---
 
 ## 🚀 About Me
 
-I'm a passionate full-stack developer based in **Nice, France** 🇫🇷, specializing in building scalable SaaS platforms from concept to production.
+Passionate full-stack developer based in **Nice, France** 🇫🇷, specializing in building scalable SaaS platforms from concept to production.
 
-- 💻 Currently building **[DARY Platform](https://github.com/CastelDazur/dary-platform)** - B2B lead generation with AI-generated gifts
+- 💻 Currently building **[DARY Platform](https://dary.one)** - B2B rewards platform with AI-generated gifts
 - 🎯 Expertise in **full-stack development**, **AI integration**, and **payment systems**
 - 🤝 Open to **collaborating** on innovative SaaS and AI projects
 - 📧 Reach me: **casteldazur@gmail.com**
@@ -21,32 +26,73 @@ I'm a passionate full-stack developer based in **Nice, France** 🇫🇷, specia
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React · React Native · JavaScript · HTML/CSS  
-**Backend:** Node.js · Express · PostgreSQL · JWT  
-**AI & Tools:** Python · FLUX AI · Cloudinary · Stripe · Firebase · Git · Docker
+<div align="center">
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Backend & Database
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+### AI & Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+</div>
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CastelDazur&show_icons=true&theme=radical&hide_border=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CastelDazur&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CastelDazur&layout=compact&theme=radical&hide_border=true)
+
+</div>
 
 ---
 
 ## 💼 Featured Projects
 
-### 🎁 [DARY Platform](https://github.com/CastelDazur/dary-platform)
+### 🎁 [DARY Platform](https://github.com/CastelDazur/dary-platform) | [Live Demo](https://dary.one)
 **B2B Lead Generation with AI-Personalized Gifts**
+
 - 🤖 AI-powered campaigns using FLUX models
-- 💳 Stripe payment integration with subscriptions  
-- 📱 Cross-platform: React web + React Native Android
-- 🌐 Multilingual: EN, RU, UK, DE, FR
+- 💳 Stripe payment integration with subscriptions
+- 📱 Cross-platform: React web + React Native (iOS/Android)
+- 🌍 Multilingual: EN, RU, UK, DE, FR
 - 📦 **150+ API endpoints** | **45 database tables** | **Solo-developed**
 
 ### 📊 [Telegram Monitor System](https://github.com/CastelDazur/telegram-monitor-system)
 **AI-Powered Telegram Monitoring & Lead Generation**
-- 🤖 Intelligent data analytics  
-- 📈 Real-time lead generation
-- 🔍 Advanced filtering capabilities
+
+- 🤖 Intelligent data analytics with LLM integration
+- 📈 Real-time lead generation and scoring
+- 🔍 Advanced filtering and categorization
+- 🤖 Automated invite system with smart throttling
 
 ---
 
-### 💬 [Community Management](https://t.me/provence_cotedazur)
-**FR Лазурный берег** - Telegram Channel Founder & Administrator
+## 💬 Community Management
+
+### 🇫🇷 [FR Лазурный берег](https://t.me/provence_cotedazur)
+**Telegram Channel Founder & Administrator**
+
 - 👥 Built and manage **20,000+ member** community
 - 🔒 Content moderation and community guidelines enforcement
 - 📱 **3,500+ active** daily users
@@ -55,14 +101,14 @@ I'm a passionate full-stack developer based in **Nice, France** 🇫🇷, specia
 - 🇷🇺 Focused on life in French Riviera (Nice, Cannes, Monaco)
 - ⏰ **Several years** of continuous operation
 
-## 🔗 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/casteldazur)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:casteldazur@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/casteldazur)
-
 ---
 
-<p align="center">
-  <i>"Building the future, one commit at a time." 🚀</i>
-</p>
+<div align="center">
+
+### 💡 "Building the future, one commit at a time." 🚀
+
+![](https://komarev.com/ghpvc/?username=CastelDazur&color=blueviolet&style=flat-square&label=Profile+Views)
+
+</div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
