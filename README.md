@@ -45,6 +45,16 @@ I'm a passionate full-stack developer based in **Nice, France** 🇫🇷, specia
 
 ---
 
+### 💬 [Community Management](https://t.me/provence_cotedazur)
+**FR Лазурный берег** - Telegram Channel Founder & Administrator
+- 👥 Built and manage **20,000+ member** community
+- 🔒 Content moderation and community guidelines enforcement
+- 📱 **3,500+ active** daily users
+- 💼 Advertising partnerships and monetization
+- 👥 Team management (multiple admins)
+- 🇷🇺 Focused on life in French Riviera (Nice, Cannes, Monaco)
+- ⏰ **Several years** of continuous operation
+
 ## 🔗 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/casteldazur)
