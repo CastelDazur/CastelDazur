@@ -99,4 +99,15 @@ Passionate full-stack developer based in **Nice, France** 🇫🇷, specializing
 
 ![Profile Views](https://komarev.com/ghpvc/?username=CastelDazur&color=blueviolet&style=flat-square&label=Profile+Views)
 
+---
+
+### 📈 **Recent Updates**
+
+- 🚀 **February 2026**: Major profile refresh and optimization
+- 💼 **Active Development**: DARY Platform reaching production milestones
+- 🎯 **Focus Areas**: AI integration, payment systems, and cross-platform development
+- 🌟 **Open to**: Collaborations on innovative SaaS and AI projects
+
+---
+
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
