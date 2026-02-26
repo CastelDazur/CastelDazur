@@ -1,3 +1,7 @@
+## 🔨 Now building: CastelDazur Systems → CI Monitor
+Evidence-based competitive intelligence. Local-first. Snapshots + hashes. Coverage report. Approval gate before exports.
+→ [casteldazur-ci-monitor](https://github.com/CastelDazur/casteldazur-ci-monitor)
+
 <div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Dmytro%20Romanov&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=fff)
