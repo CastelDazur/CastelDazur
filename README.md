@@ -1,5 +1,6 @@
 ## 🔨 Now building: CastelDazur Systems → CI Monitor
 Evidence-based competitive intelligence. Local-first. Snapshots + hashes. Coverage report. Approval gate before exports.
+
 → [casteldazur-ci-monitor](https://github.com/CastelDazur/casteldazur-ci-monitor)
 
 <div align="center">
@@ -22,6 +23,7 @@ Evidence-based competitive intelligence. Local-first. Snapshots + hashes. Covera
 Passionate full-stack developer based in **Nice, France** 🇫🇷, specializing in building scalable SaaS platforms from concept to production.
 
 - 💻 Currently building **[DARY Platform](https://dary.one)** - B2B rewards platform with AI-generated gifts
+- 🔨 Now building **[CastelDazur CI Monitor](https://github.com/CastelDazur/casteldazur-ci-monitor)** — evidence-based CI, local-first, approval gate
 - 🎯 Expertise in **full-stack development**, **AI integration**, and **payment systems**
 - 🤝 Open to **collaborating** on innovative SaaS and AI projects
 - 📧 Reach me: **casteldazur@gmail.com**
@@ -73,11 +75,16 @@ Passionate full-stack developer based in **Nice, France** 🇫🇷, specializing
 **AI-Powered Telegram Monitoring & Lead Generation**
 
 - 🤖 Intelligent data analytics with LLM integration
-- 📈 Real-time lead generation and scoring
-- 🔍 Advanced filtering and categorization
+categorization
 - ⚙️ Automated invite system with smart throttling
 
----
+### 🔨 [CastelDazur CI Monitor](https://github.com/CastelDazur/casteldazur-ci-monitor)
+**Evidence-based competitive intelligence. Local-first. Build-in-public.**
+
+- 📸 Snapshot + timestamp + hash (no proof → no claim)
+- 📊 Coverage Report (honest limits)
+- 🔐 Approval gate before export/share
+- ☁️ Cloud opt-in only (default off)
 
 ### 💡 "Building the future, one commit at a time."
 
@@ -88,6 +95,7 @@ Passionate full-stack developer based in **Nice, France** 🇫🇷, specializing
 ### 📈 Recent Updates
 
 - 🔍 **Feb 2026**: Shipped pHash image recognition system — gift activation now works after Telegram/WhatsApp compression
+- 🔨 **Feb 2026**: Launched CastelDazur CI Monitor — evidence-based CI, local-first, sanitized build-in-public
 - 📢 **Feb 2026**: Ad Manager module in development — automated Google Ads integration for campaigns
 - 💼 **Active**: DARY Platform reaching production milestones
 - 🌟 **Open to**: Collaborations on innovative SaaS and AI projects
