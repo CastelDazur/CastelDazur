@@ -21,10 +21,6 @@ CastelOS is a local-first AI execution system designed to:
 - **Systems thinking** — governance over hype, execution over chat, system over model
 - **Product thinking** — installable profiles, buyer utility, packaging and trust
 
-### Also building
-
-- **[DARY Platform](https://github.com/CastelDazur/dary-platform)** — B2B lead generation with AI-personalized digital gifts. React + Node.js + PostgreSQL
-
 ### Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/casteldazur)
