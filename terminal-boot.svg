@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="840" height="380">
+  <defs>
+    <style>
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes glow { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+      @keyframes slideIn { from { opacity: 0; } to { opacity: 1; } }
+      .terminal-bg { fill: #0d1117; }
+      .header-text { fill: #8b949e; font-family: Consolas, monospace; font-size: 12px; }
+      .cmd { fill: #79c0ff; font-family: Consolas, monospace; font-size: 14px; font-weight: bold; }
+      .prompt { fill: #bc8cff; }
+      .check { fill: #3fb950; font-family: Consolas, monospace; font-size: 14px; }
+      .check-label { fill: #e6edf3; font-family: Consolas, monospace; font-size: 14px; }
+      .check-value { fill: #8b949e; font-family: Consolas, monospace; font-size: 14px; }
+      .output { fill: #58a6ff; font-family: Consolas, monospace; font-size: 14px; font-weight: bold; }
+      .output-name { fill: #f0f6fc; font-family: Consolas, monospace; font-size: 14px; }
+      .cursor-char { fill: #58a6ff; animation: blink 1s step-end infinite; }
+      .bar-track { fill: #21262d; }
+      .line { opacity: 0; }
+      .l1 { animation: fadeIn 0.4s ease-out 0.3s forwards; }
+      .l2 { animation: fadeIn 0.4s ease-out 0.9s forwards; }
+      .l3 { animation: fadeIn 0.4s ease-out 2.8s forwards; }
+      .l4 { animation: fadeIn 0.4s ease-out 3.4s forwards; }
+      .l5 { animation: fadeIn 0.4s ease-out 4.0s forwards; }
+      .l6 { animation: fadeIn 0.4s ease-out 4.6s forwards; }
+      .l7 { animation: slideIn 0.6s ease-out 5.4s forwards; }
+      .l8 { animation: slideIn 0.6s ease-out 6.0s forwards; }
+      .l9 { animation: blink 1s step-end infinite; animation-delay: 6.5s; opacity: 0; }
+      .glow-dot { animation: glow 2s ease-in-out infinite; animation-delay: 5.5s; }
+    </style>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#238636" />
+      <stop offset="100%" style="stop-color:#3fb950" />
+    </linearGradient>
+  </defs>
+  <rect class="terminal-bg" width="840" height="380" rx="12" />
+  <rect width="840" height="380" rx="12" fill="none" stroke="#30363d" stroke-width="1" />
+  <rect width="840" height="36" rx="12" fill="#161b22" />
+  <rect x="0" y="24" width="840" height="12" fill="#161b22" />
+  <circle cx="24" cy="18" r="6" fill="#ff5f57" />
+  <circle cx="46" cy="18" r="6" fill="#febc2e" />
+  <circle cx="68" cy="18" r="6" fill="#28c840" />
+  <text class="header-text" x="420" y="22" text-anchor="middle">castelos@workstation ~ governance</text>
+  <g class="line l1"><text class="prompt" x="28" y="72">$</text><text class="cmd" x="44" y="72">castelos --init --mode=governed</text></g>
+  <g class="line l2"><text class="check-value" x="28" y="100">Initializing execution environment...</text><rect class="bar-track" x="28" y="112" width="280" height="10" rx="5" /><rect x="28" y="112" width="0" height="10" rx="5" fill="url(#barGrad)"><animate attributeName="width" from="0" to="280" dur="1.5s" begin="1.2s" fill="freeze" /></rect><text class="check-value" x="318" y="122" font-size="12" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.7s" fill="freeze" />done</text></g>
+  <g class="line l3"><text class="check" x="28" y="156">&#10003;</text><text class="check-label" x="50" y="156">Runtime</text><text class="check-value" x="140" y="156">&#8212; local GPU allocated, 64GB RAM ready</text></g>
+  <g class="line l4"><text class="check" x="28" y="184">&#10003;</text><text class="check-label" x="50" y="184">Governance</text><text class="check-value" x="164" y="184">&#8212; policy engine active, audit trail on</text></g>
+  <g class="line l5"><text class="check" x="28" y="212">&#10003;</text><text class="check-label" x="50" y="212">Knowledge</text><text class="check-value" x="158" y="212">&#8212; flows connected, domain packs loaded</text></g>
+  <g class="line l6"><text class="check" x="28" y="240">&#10003;</text><text class="check-label" x="50" y="240">Orchestration</text><text class="check-value" x="186" y="240">&#8212; task routing online, evidence logging</text></g>
+  <g class="line l7"><line x1="28" y1="262" x2="812" y2="262" stroke="#30363d" stroke-width="1" /></g>
+  <g class="line l7"><text class="output" x="28" y="290">&#9654; System ready.</text><text class="output-name" x="188" y="290">Execution mode: governed. No cloud. No chaos.</text></g>
+  <g class="line l8"><text class="output" x="28" y="318">&#9654; Builder:</text><text class="output-name" x="128" y="318">Dmytro Romanov</text><text class="check-value" x="298" y="318">@CastelDazur</text><circle cx="812" cy="314" r="4" fill="#3fb950" class="glow-dot" /></g>
+  <g class="line l9"><text class="prompt" x="28" y="350">$</text><rect class="cursor-char" x="44" y="338" width="8" height="16" rx="1" /></g>
+</svg>
