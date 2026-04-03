@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="840" height="380">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1020;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F1628;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8CC6E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#18223B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#11182C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="840" height="380" rx="12" fill="url(#bgGrad)" />
+  <rect x="1" y="1" width="838" height="378" rx="11" fill="none" stroke="#1E2A45" stroke-width="1" />
+  <text x="420" y="38" text-anchor="middle" fill="#C9A84C" font-family="monospace" font-size="13" font-weight="600" letter-spacing="3" filter="url(#glow)">CASTELOS RUNTIME LIFECYCLE</text>
+  <line x1="220" y1="50" x2="620" y2="50" stroke="#C9A84C" stroke-opacity="0.3" stroke-width="1" />
+  <text x="108" y="80" text-anchor="middle" fill="#5A6A8A" font-family="monospace" font-size="9" letter-spacing="1">INPUT</text>
+  <text x="290" y="80" text-anchor="middle" fill="#5A6A8A" font-family="monospace" font-size="9" letter-spacing="1">VALIDATE</text>
+  <text x="472" y="80" text-anchor="middle" fill="#5A6A8A" font-family="monospace" font-size="9" letter-spacing="1">ROUTE</text>
+  <text x="652" y="80" text-anchor="middle" fill="#5A6A8A" font-family="monospace" font-size="9" letter-spacing="1">EXECUTE</text>
+  <rect x="38" y="95" width="140" height="90" rx="10" fill="url(#nodeGrad)" stroke="#2A3A5C" stroke-width="1.5" />
+  <text x="108" y="130" text-anchor="middle" fill="#76B900" font-family="monospace" font-size="22">&#9654;</text>
+  <text x="108" y="152" text-anchor="middle" fill="#F5F1E8" font-family="sans-serif" font-size="13" font-weight="600">Task</text>
+  <text x="108" y="172" text-anchor="middle" fill="#8A9ABF" font-family="monospace" font-size="9">prompt + context</text>
+  <line x1="178" y1="140" x2="210" y2="140" stroke="#C9A84C" stroke-width="1.5" stroke-opacity="0.6" />
+  <polygon points="210,136 220,140 210,144" fill="#C9A84C" fill-opacity="0.6" />
+  <rect x="220" y="95" width="140" height="90" rx="10" fill="url(#nodeGrad)" stroke="#2A3A5C" stroke-width="1.5" />
+  <text x="290" y="130" text-anchor="middle" fill="#0093DD" font-family="monospace" font-size="22">&#9635;</text>
+  <text x="290" y="152" text-anchor="middle" fill="#F5F1E8" font-family="sans-serif" font-size="13" font-weight="600">Contract</text>
+  <text x="290" y="172" text-anchor="middle" fill="#8A9ABF" font-family="monospace" font-size="9">policy + schema</text>
+  <line x1="360" y1="140" x2="392" y2="140" stroke="#C9A84C" stroke-width="1.5" stroke-opacity="0.6" />
+  <polygon points="392,136 402,140 392,144" fill="#C9A84C" fill-opacity="0.6" />
+  <rect x="402" y="95" width="140" height="90" rx="10" fill="url(#nodeGrad)" stroke="#2A3A5C" stroke-width="1.5" />
+  <text x="472" y="130" text-anchor="middle" fill="#E8CC6E" font-family="monospace" font-size="22">&#8646;</text>
+  <text x="472" y="152" text-anchor="middle" fill="#F5F1E8" font-family="sans-serif" font-size="13" font-weight="600">Router</text>
+  <text x="472" y="172" text-anchor="middle" fill="#8A9ABF" font-family="monospace" font-size="9">GPU + model pick</text>
+  <line x1="542" y1="140" x2="574" y2="140" stroke="#C9A84C" stroke-width="1.5" stroke-opacity="0.6" />
+  <polygon points="574,136 584,140 574,144" fill="#C9A84C" fill-opacity="0.6" />
+  <rect x="584" y="95" width="140" height="90" rx="10" fill="url(#nodeGrad)" stroke="#C9A84C" stroke-width="1.5" stroke-opacity="0.5" />
+  <text x="654" y="130" text-anchor="middle" fill="#FF3621" font-family="monospace" font-size="22">&#9881;</text>
+  <text x="654" y="152" text-anchor="middle" fill="#F5F1E8" font-family="sans-serif" font-size="13" font-weight="600">Runtime</text>
+  <text x="654" y="172" text-anchor="middle" fill="#8A9ABF" font-family="monospace" font-size="9">governed run</text>
+  <line x1="654" y1="185" x2="654" y2="215" stroke="#C9A84C" stroke-width="1.5" stroke-opacity="0.6" />
+  <polygon points="650,215 654,225 658,215" fill="#C9A84C" fill-opacity="0.6" />
+  <rect x="564" y="228" width="180" height="70" rx="10" fill="url(#nodeGrad)" stroke="#76B900" stroke-width="1.5" stroke-opacity="0.5" />
+  <text x="654" y="258" text-anchor="middle" fill="#76B900" font-family="monospace" font-size="16">&#10003;</text>
+  <text x="654" y="278" text-anchor="middle" fill="#F5F1E8" font-family="sans-serif" font-size="12" font-weight="600">Artifacts + Evidence</text>
+  <text x="654" y="292" text-anchor="middle" fill="#8A9ABF" font-family="monospace" font-size="9">files, logs, audit trail</text>
+  <rect x="38" y="318" width="764" height="42" rx="8" fill="#11182C" stroke="#1E2A45" stroke-width="1" />
+  <text x="56" y="335" fill="#C9A84C" font-family="monospace" font-size="9" font-weight="600" letter-spacing="1">GOVERNANCE LAYER</text>
+  <text x="56" y="352" fill="#5A6A8A" font-family="monospace" font-size="9">policy enforcement · audit logging · cost tracking · drift detection · schema validation</text>
+  <line x1="108" y1="185" x2="108" y2="318" stroke="#1E2A45" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="290" y1="185" x2="290" y2="318" stroke="#1E2A45" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="472" y1="185" x2="472" y2="318" stroke="#1E2A45" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="654" y1="298" x2="654" y2="318" stroke="#1E2A45" stroke-width="1" stroke-dasharray="4,4" />
+  <path d="M564,263 L108,263 L108,190" fill="none" stroke="#5A6A8A" stroke-width="1" stroke-dasharray="6,3" stroke-opacity="0.5" />
+  <polygon points="104,194 108,185 112,194" fill="#5A6A8A" fill-opacity="0.5" />
+  <text x="336" y="256" text-anchor="middle" fill="#5A6A8A" font-family="monospace" font-size="8" font-style="italic">feedback loop</text>
+</svg>
