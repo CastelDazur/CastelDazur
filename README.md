@@ -28,6 +28,13 @@ I design and build **CastelOS** — a local-first AI execution system that turns
 
 Everything runs on one workstation I assembled myself. No cloud dependencies. No scattered SaaS. Just execution.
 
+
+<br>
+
+<div align="center">
+  <img src="./assets/runtime-lifecycle.svg" width="840" alt="CastelOS Runtime Lifecycle" />
+</div>
+
 <br>
 
 <div align="center">
@@ -67,10 +74,3 @@ Everything runs on one workstation I assembled myself. No cloud dependencies. No
   </a>
   &nbsp;
   <a href="https://x.com/casteldazur">
-    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
-  </a>
-  &nbsp;
-  <a href="mailto:casteldazur@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
