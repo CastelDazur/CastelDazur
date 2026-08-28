@@ -28,6 +28,16 @@ I design and build **CastelOS** — a local-first AI execution system that turns
 
 Everything runs on one workstation I assembled myself. No cloud dependencies. No scattered SaaS. Just execution.
 
+### Things you can run
+
+The reusable pieces live in their own repos. None of them need CastelOS to be useful.
+
+- **[awesome-local-ai](https://github.com/CastelDazur/awesome-local-ai)** is a curated list of tools for running models on your own hardware.
+- **[gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard)** stops one process from taking the whole GPU. `pip install gpu-memory-guard`
+- **[llm-judge-jury](https://github.com/CastelDazur/llm-judge-jury)** puts several models to a vote on an output instead of trusting one judge.
+- **[qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook)** is the set of guards that kept my QLoRA runs alive on a single card.
+- **[merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp)** merges two LoRA adapters by rank, then verifies the MTP heads survive GGUF quantization.
+
 
 <br>
 
@@ -36,33 +46,6 @@ Everything runs on one workstation I assembled myself. No cloud dependencies. No
 </div>
 
 <br>
-
-<div align="center">
-<table>
-<tr>
-  <td align="center" width="200">
-    <img width="40" src="https://cdn.simpleicons.org/nvidia/76B900" alt="GPU" /><br>
-    <b>Hardware-aware</b><br>
-    <sub>GPU/RAM routing,<br>silicon to output</sub>
-  </td>
-  <td align="center" width="200">
-    <img width="40" src="https://cdn.simpleicons.org/gnuprivacyguard/0093DD" alt="Governance" /><br>
-    <b>Governed execution</b><br>
-    <sub>Policy layer, audit trail,<br>every run tracked</sub>
-  </td>
-  <td align="center" width="200">
-    <img width="40" src="https://cdn.simpleicons.org/databricks/FF3621" alt="Knowledge" /><br>
-    <b>Knowledge flows</b><br>
-    <sub>Connected pipelines,<br>not prompt chaos</sub>
-  </td>
-  <td align="center" width="200">
-    <img width="40" src="https://cdn.simpleicons.org/homeassistant/18BCF2" alt="Domain" /><br>
-    <b>Domain packs</b><br>
-    <sub>Productized profiles<br>for real workflows</sub>
-  </td>
-</tr>
-</table>
-</div>
 
 <br>
 
