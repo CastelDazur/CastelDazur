@@ -16,16 +16,8 @@
       .output-name { fill: #f0f6fc; font-family: Consolas, monospace; font-size: 14px; }
       .cursor-char { fill: #58a6ff; animation: blink 1s step-end infinite; }
       .bar-track { fill: #21262d; }
-      .line { opacity: 0; }
-      .l1 { animation: fadeIn 0.4s ease-out 0.3s forwards; }
-      .l2 { animation: fadeIn 0.4s ease-out 0.9s forwards; }
-      .l3 { animation: fadeIn 0.4s ease-out 2.8s forwards; }
-      .l4 { animation: fadeIn 0.4s ease-out 3.4s forwards; }
-      .l5 { animation: fadeIn 0.4s ease-out 4.0s forwards; }
-      .l6 { animation: fadeIn 0.4s ease-out 4.6s forwards; }
-      .l7 { animation: slideIn 0.6s ease-out 5.4s forwards; }
-      .l8 { animation: slideIn 0.6s ease-out 6.0s forwards; }
-      .l9 { animation: blink 1s step-end infinite; animation-delay: 6.5s; opacity: 0; }
+      .line { opacity: 1; }
+      .l9 { animation: blink 1s step-end infinite; animation-delay: 6.5s; }
       .glow-dot { animation: glow 2s ease-in-out infinite; animation-delay: 5.5s; }
     </style>
     <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -42,7 +34,7 @@
   <circle cx="68" cy="18" r="6" fill="#28c840" />
   <text class="header-text" x="420" y="22" text-anchor="middle">castelos@workstation ~ governance</text>
   <g class="line l1"><text class="prompt" x="28" y="72">$</text><text class="cmd" x="44" y="72">castelos --init --mode=governed</text></g>
-  <g class="line l2"><text class="check-value" x="28" y="100">Initializing execution environment...</text><rect class="bar-track" x="28" y="112" width="280" height="10" rx="5" /><rect x="28" y="112" width="0" height="10" rx="5" fill="url(#barGrad)"><animate attributeName="width" from="0" to="280" dur="1.5s" begin="1.2s" fill="freeze" /></rect><text class="check-value" x="318" y="122" font-size="12" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.7s" fill="freeze" />done</text></g>
+  <g class="line l2"><text class="check-value" x="28" y="100">Initializing execution environment...</text><rect class="bar-track" x="28" y="112" width="280" height="10" rx="5" /><rect x="28" y="112" width="280" height="10" rx="5" fill="url(#barGrad)" /><text class="check-value" x="318" y="122" font-size="12">done</text></g>
   <g class="line l3"><text class="check" x="28" y="156">&#10003;</text><text class="check-label" x="50" y="156">Runtime</text><text class="check-value" x="140" y="156">&#8212; local GPU allocated, 64GB RAM ready</text></g>
   <g class="line l4"><text class="check" x="28" y="184">&#10003;</text><text class="check-label" x="50" y="184">Governance</text><text class="check-value" x="164" y="184">&#8212; policy engine active, audit trail on</text></g>
   <g class="line l5"><text class="check" x="28" y="212">&#10003;</text><text class="check-label" x="50" y="212">Knowledge</text><text class="check-value" x="158" y="212">&#8212; flows connected, domain packs loaded</text></g>
