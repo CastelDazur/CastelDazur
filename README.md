@@ -24,7 +24,7 @@
 
 ### What I do
 
-I design and build **CastelOS** — a local-first AI execution system that turns tasks into governed runs with real artifacts and evidence. Not another wrapper around an API. A full system: from GPU routing to policy enforcement to domain-specific knowledge packs.
+I design and build **[CastelOS](https://castel.studio)** — a local-first AI execution system that turns tasks into governed runs with real artifacts and evidence. Not another wrapper around an API. A full system: from GPU routing to policy enforcement to domain-specific knowledge packs.
 
 Everything runs on one workstation I assembled myself. No cloud dependencies. No scattered SaaS. Just execution.
 
@@ -52,8 +52,15 @@ The reusable pieces live in their own repos. None of them need CastelOS to be us
 ---
 
 <div align="center">
+  <a href="https://castel.studio">
+    <img src="https://img.shields.io/badge/castel.studio-0D1117?style=flat-square&logo=googlechrome&logoColor=white" alt="castel.studio" />
+  </a>
+  &nbsp;
   <a href="https://linkedin.com/in/casteldazur">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="https://x.com/casteldazur">
+    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
+  </a>
+</div>
