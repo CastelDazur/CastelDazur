@@ -1,3 +1,5 @@
+<p align="center"><strong>Open to work:</strong> Python / ML engineering, LLM infrastructure, automation. Contract or full-time, remote or Nice area. <a href="mailto:casteldazur@gmail.com">casteldazur@gmail.com</a></p>
+
 <div align="center">
   <img src="./terminal-boot.svg" width="840" alt="CastelOS Boot Sequence" />
 </div>
