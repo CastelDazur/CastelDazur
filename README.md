@@ -38,7 +38,7 @@ The reusable pieces live in their own repos. None of them need CastelOS to be us
 - **[gpu-memory-guard](https://github.com/CastelDazur/gpu-memory-guard)** stops one process from taking the whole GPU. `pip install gpu-memory-guard`
 - **[llm-judge-jury](https://github.com/CastelDazur/llm-judge-jury)** puts several models to a vote on an output instead of trusting one judge.
 - **[qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook)** is the set of guards that kept my QLoRA runs alive on a single card.
-- **[merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp)** merges two LoRA adapters by rank, then verifies the MTP heads survive GGUF quantization.
+- **[merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp)** merges two LoRA adapters by rank and checks that a GGUF actually contains its speculative-decoding (MTP) heads.
 - **[csv-cleaner](https://github.com/CastelDazur/csv-cleaner)** takes a messy customer CSV and returns a clean file, a log of every edit and a list of values to decide on. Standard library only.
 
 
