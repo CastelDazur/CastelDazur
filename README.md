@@ -1,4 +1,4 @@
-<p align="center"><strong>Open to work:</strong> Python / ML engineering, LLM infrastructure, automation. Contract or full-time, remote or Nice area. <a href="mailto:casteldazur@gmail.com">casteldazur@gmail.com</a></p>
+<p align="center"><strong>Open to work:</strong> Python / ML engineering, LLM infrastructure, automation, AI agents (Claude Code, MCP). Freelance, contract or full-time, remote or Nice area. <a href="mailto:casteldazur@gmail.com">casteldazur@gmail.com</a></p>
 
 <div align="center">
   <img src="./terminal-boot.svg" width="840" alt="CastelOS Boot Sequence" />
@@ -29,6 +29,12 @@
 I design and build **[CastelOS](https://castel.studio)** — a local-first AI execution system that turns tasks into governed runs with real artifacts and evidence. Not another wrapper around an API. A full system: from GPU routing to policy enforcement to domain-specific knowledge packs.
 
 Everything runs on one workstation I assembled myself. No cloud dependencies. No scattered SaaS. Just execution.
+
+### Work with me
+
+I build and fix agent setups on Claude Code: agents, hooks with tests, memory between sessions, MCP tools that connect them to your files, email and sheets. Plus the Python automation around them: PDF to table, API to Google Sheets with alerts, CSV cleaning with a log of every change.
+
+Details and prices: [castel.studio/agents](https://castel.studio/agents/) · Also on [Upwork](https://www.upwork.com/freelancers/~0144ae237db3e7626d)
 
 ### Things you can run
 
