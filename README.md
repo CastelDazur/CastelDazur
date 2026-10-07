@@ -46,6 +46,8 @@ The reusable pieces live in their own repos. None of them need CastelOS to be us
 - **[qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook)** is the set of guards that kept my QLoRA runs alive on a single card.
 - **[merge-quantize-keep-mtp](https://github.com/CastelDazur/merge-quantize-keep-mtp)** merges two LoRA adapters by rank and checks that a GGUF actually contains its speculative-decoding (MTP) heads.
 - **[csv-cleaner](https://github.com/CastelDazur/csv-cleaner)** takes a messy customer CSV and returns a clean file, a log of every edit and a list of values to decide on. Standard library only.
+- **[pdf-invoices-to-table](https://github.com/CastelDazur/pdf-invoices-to-table)** reads PDF invoices with different layouts into one table and flags any whose net + VAT does not match the total.
+- **[api-to-sheets-telegram](https://github.com/CastelDazur/api-to-sheets-telegram)** pulls a public API once a day into CSV or Google Sheets without duplicates and sends a Telegram alert when a value moves.
 
 
 <br>
