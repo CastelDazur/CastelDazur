@@ -28,7 +28,7 @@
 
 I design and build **[CastelOS](https://castel.studio)** — a local-first AI execution system that turns tasks into governed runs with real artifacts and evidence. Not another wrapper around an API. A full system: from GPU routing to policy enforcement to domain-specific knowledge packs.
 
-Everything runs on one workstation I assembled myself. No cloud dependencies. No scattered SaaS. Just execution.
+The core runs on one workstation I assembled myself. Local models are the default; cloud models are used only when a task needs them and the data allows it.
 
 ### Work with me
 
