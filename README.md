@@ -36,6 +36,15 @@ I build and fix agent setups on Claude Code: agents, hooks with tests, memory be
 
 Details and prices: [castel.studio/agents](https://castel.studio/agents/) · Also on [Upwork](https://www.upwork.com/freelancers/~0144ae237db3e7626d)
 
+### Field notes
+
+Measured on one RTX 5090 workstation, with the numbers and what they do not prove.
+
+- [KV cache q8_0 vs q4_0](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-kv-cache.md): q8_0 decoded 65% faster at long context.
+- [MTP speculative decoding](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-mtp-speculative-decoding.md): +39% tokens per second, and how to check your GGUF has the heads.
+- [llama.cpp build vs new models](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-llama-cpp-build-age.md): a model that looped on an older build, and what we could not separate.
+- [QLoRA on one 32 GB GPU](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-qlora-one-gpu.md): five failures from a 27B run, with the fixes.
+
 ### Things you can run
 
 The reusable pieces live in their own repos. None of them need CastelOS to be useful.
