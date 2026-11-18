@@ -44,6 +44,7 @@ Measured on one RTX 5090 workstation, with the numbers and what they do not prov
 - [MTP speculative decoding](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-mtp-speculative-decoding.md): +39% tokens per second, and how to check your GGUF has the heads.
 - [llama.cpp build vs new models](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-llama-cpp-build-age.md): a model that looped on an older build, and what we could not separate.
 - [QLoRA on one 32 GB GPU](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-qlora-one-gpu.md): five failures from a 27B run, with the fixes.
+- [Teaching a 7B model two books](https://github.com/CastelDazur/awesome-local-ai/blob/main/guides/field-notes-books-into-weights.md): what stuck, what it forgot, and the shortcut that dropped its memory of the first book to 58%.
 
 ### Things you can run
 
